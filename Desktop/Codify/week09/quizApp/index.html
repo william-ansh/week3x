@@ -1,0 +1,107 @@
+<!-- Instructs browser that this is a html file -->
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title></title>
+
+<!-- Bootstrap CDN -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+<!-- Fontawesome stylesheet -->
+<link rel="stylesheet" href="css/fontawesome-all.css">
+
+<!-- Reset stylesheet "Normalize" -->
+<link rel="stylesheet" href="css/reset.css">
+
+<!-- Main css stylesheet  -->
+<link rel="stylesheet" href="css/main.css">
+
+
+  </head>
+
+<body>
+
+
+  <div class="container">
+    <h1 class="title">Mythology Quiz</h1>
+    <div class="row">
+      <form class="col-sm-7">
+        <div class="form-group">
+          <div id="question0">Who is the king of the gods in Ancient Roman mythology?</div>
+          <input id="answer0" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <div id="question1">What is the name of the god of the sea in Ancient Greek mythology?</div>
+          <input id="answer1" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <div id="question2">Who were the three brothers who presided over the three realms of the universe in Roman mythology?</div>
+          <input id="answer2" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <div id="question3">Who were the three brothers who resided over the three realms of the universe in Greek mythology?</div>
+          <input id="answer3" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <div id="question4">What were the three realms of the universe in Ancient Grrek and Roman mythology?</div>
+          <input id="answer4" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <div id="question5">Who was Heracles' father in Greek mythology?</div>
+          <input id="answer5" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <div id="question6">What is the name of the Roman god of war?</div>
+          <input id="answer6" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <div id="question7">How many total labours did Heracles have to perform?</div>
+          <input id="answer7" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <div id="question8">What is Poseidon's weapon of choice?</div>
+          <input id="answer8" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <div id="question9">Who is the Roman god of the underworld?</div>
+          <input id="answer9" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <div id="question10">BONUS: Who were the first to put the Greek myths into writing?</div>
+          <input id="answer10" type="text" class="form-control">
+        </div>
+        <br>
+        <button type="button" onclick="testResults()" class="btn btn-primary btn-larg" id="thebutton">See Results</button>
+      </form>
+      <div class="col-sm-2 col-sm-offset-1">
+        <h1 class="correct">
+          Correct:
+          <span id="correct"></span>
+        </h1>
+        <h1 class="incorrect">
+          Incorrect:
+          <span id="incorrect"></span>
+        </h1>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+<!-- Javascript Custom Script -->
+<script type="text/javascript" src="js/main.js"></script>
+
+<!-- Javascript Script Links -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

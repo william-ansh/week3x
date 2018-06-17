@@ -1,0 +1,49 @@
+.form-group {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #1D1B30;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.42857143;
+  color: black;
+  background-color: #B9AC98;
+}
+
+button {
+  margin-bottom: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: #292529;
+}
+
+h1.correct {
+  width: 300px;
+  color: #20524D;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+h1.incorrect {
+  width: 300px;
+  color: #7C1518;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
